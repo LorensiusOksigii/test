@@ -13,22 +13,12 @@
                                     <thead>
                                         <tr>
                                             <th>time</th>
-                                            <th>arus panel</th>
-                                            <th>arus baterai</th>
-                                            <th>arus output</th>
-                                            <th>tegangan panel</th>
-                                            <th>tegangan baterai</th>
-                                            <th>tegangan output</th>
+                                            <th>arus</th>
                                         </tr>
                                         <?php foreach ($table as $radonkcook) {?>
                                         <tr>
                                             <th><?php echo $radonkcook->date; ?></th>
                                             <th><?php echo $radonkcook->current_panel; ?></th>
-                                            <th><?php echo $radonkcook->current_battery; ?></th>
-                                            <th><?php echo $radonkcook->current_output; ?></th>
-                                            <th><?php echo $radonkcook->voltage_panel; ?></th>
-                                            <th><?php echo $radonkcook->voltage_battery; ?></th>
-                                            <th><?php echo $radonkcook->voltage_output; ?></th>
                                         </tr>
                                         <?php } ?>
                                     </thead>
